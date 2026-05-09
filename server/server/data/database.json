@@ -1,0 +1,432 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alex Ionescu",
+      "email": "alex@example.com",
+      "description": "Competitive football and weekend basketball. I like organized, high-energy games.",
+      "sports": [
+        "Football",
+        "Basketball"
+      ],
+      "skill": "Intermediate",
+      "lat": 45.7489,
+      "lng": 21.2087,
+      "radiusKm": 8,
+      "availability": "yes",
+      "achievements": [
+        "Early mover"
+      ]
+    },
+    {
+      "id": "u2",
+      "name": "Mara Popa",
+      "email": "mara@example.com",
+      "description": "Tennis, padel and casual running after work.",
+      "sports": [
+        "Tennis",
+        "Padel",
+        "Running"
+      ],
+      "skill": "Beginner",
+      "lat": 45.7537,
+      "lng": 21.2257,
+      "radiusKm": 5,
+      "availability": "yes",
+      "achievements": [
+        "Social starter"
+      ]
+    },
+    {
+      "id": "u3",
+      "name": "Vlad Marin",
+      "email": "vlad@example.com",
+      "description": "Basketball shooter, happy to captain and coordinate venues.",
+      "sports": [
+        "Basketball"
+      ],
+      "skill": "Advanced",
+      "lat": 45.742,
+      "lng": 21.2135,
+      "radiusKm": 10,
+      "availability": "yes",
+      "achievements": [
+        "Captain material"
+      ]
+    },
+    {
+      "id": "u4",
+      "name": "Ioana Stan",
+      "email": "ioana@example.com",
+      "description": "Football goalkeeper and volleyball beginner.",
+      "sports": [
+        "Football",
+        "Volleyball"
+      ],
+      "skill": "Intermediate",
+      "lat": 45.7596,
+      "lng": 21.23,
+      "radiusKm": 7,
+      "availability": "yes",
+      "achievements": []
+    },
+    {
+      "id": "u5",
+      "name": "Radu Ene",
+      "email": "radu@example.com",
+      "description": "Basketball and football, flexible schedule.",
+      "sports": [
+        "Basketball",
+        "Football"
+      ],
+      "skill": "Intermediate",
+      "lat": 45.7369,
+      "lng": 21.231,
+      "radiusKm": 9,
+      "availability": "yes",
+      "achievements": []
+    },
+    {
+      "id": "u6",
+      "name": "Ana Dima",
+      "email": "ana@example.com",
+      "description": "Padel doubles and tennis. Prefer friendly games.",
+      "sports": [
+        "Padel",
+        "Tennis"
+      ],
+      "skill": "Intermediate",
+      "lat": 45.767,
+      "lng": 21.218,
+      "radiusKm": 6,
+      "availability": "yes",
+      "achievements": []
+    },
+    {
+      "id": "u7",
+      "name": "Sorin Matei",
+      "email": "sorin@example.com",
+      "description": "Basketball point guard, volleyball for fun.",
+      "sports": [
+        "Basketball",
+        "Volleyball"
+      ],
+      "skill": "Beginner",
+      "lat": 45.7528,
+      "lng": 21.2381,
+      "radiusKm": 7,
+      "availability": "yes",
+      "achievements": []
+    },
+    {
+      "id": "u8",
+      "name": "Elena Barbu",
+      "email": "elena@example.com",
+      "description": "Running groups, tennis and beginner basketball.",
+      "sports": [
+        "Running",
+        "Tennis",
+        "Basketball"
+      ],
+      "skill": "Beginner",
+      "lat": 45.7512,
+      "lng": 21.2305,
+      "radiusKm": 8,
+      "availability": "no",
+      "achievements": []
+    },
+    {
+      "name": "Cristian",
+      "email": "cris@gmail.com",
+      "description": "\"Hello World\" Master",
+      "photoUrl": "",
+      "sports": [
+        "Football"
+      ],
+      "skill": "Beginner",
+      "lat": 45.7489,
+      "lng": 21.2087,
+      "radiusKm": 8,
+      "id": "b5a96a3a-1e74-435f-b051-720411414509",
+      "availability": "yes",
+      "achievements": [
+        "New teammate"
+      ]
+    },
+    {
+      "name": "Lionel Messi",
+      "email": "Messi@Efootball.com",
+      "description": "I love football!",
+      "photoUrl": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fplayers.fcbarcelona.com%2Fen%2Fplayer%2F548-messi-lionel-andres-messi-cuccitini&ved=0CBYQjRxqFwoTCKD7jLehrJQDFQAAAAAdAAAAABAF&opi=89978449",
+      "sports": [
+        "Football"
+      ],
+      "skill": "Advanced",
+      "lat": 45.7489,
+      "lng": 21.2087,
+      "radiusKm": 8,
+      "id": "7b227d44-4e07-46df-aa0a-160a8731f245",
+      "availability": "yes",
+      "achievements": [
+        "New teammate"
+      ]
+    },
+    {
+      "name": "Lionel Messi",
+      "email": "Messi@withPhoto.com",
+      "description": "I love football!",
+      "photoUrl": "https://mbpschool.com/wp-content/uploads/2023/11/shutterstock_95477827-e1765969772256.jpg",
+      "sports": [
+        "Football"
+      ],
+      "skill": "Advanced",
+      "lat": 45.7489,
+      "lng": 21.2087,
+      "radiusKm": 8,
+      "id": "4e5c1468-b158-4053-8626-12326609a447",
+      "availability": "yes",
+      "achievements": [
+        "New teammate"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "e5388d56-bedd-4ef4-8d8c-54675fe591a2",
+      "sport": "Running",
+      "title": "Worst Pace Scenario",
+      "description": "Running group for casual pace, fresh air, and steady motivation.",
+      "captainId": "u8",
+      "memberIds": [
+        "u8",
+        "u2",
+        "u1"
+      ],
+      "compatibilityScore": 72,
+      "suggestedVenueIds": [
+        "v3"
+      ],
+      "status": "confirmed",
+      "createdAt": "2026-05-09T10:55:26.709Z"
+    },
+    {
+      "id": "bc2d61c7-7e5d-4b3e-9a79-a317745392a3",
+      "sport": "Football",
+      "title": "Class on Grass FC",
+      "description": "Football group for team play, quick passes, and match-day energy.",
+      "captainId": "u1",
+      "memberIds": [
+        "u1",
+        "u5",
+        "u4"
+      ],
+      "compatibilityScore": 97,
+      "suggestedVenueIds": [
+        "v4",
+        "v1",
+        "v2"
+      ],
+      "status": "confirmed",
+      "createdAt": "2026-05-09T11:40:59.060Z"
+    },
+    {
+      "id": "cbb056c6-565d-481b-a189-735169073baa",
+      "sport": "Basketball",
+      "title": "Rim Reapers",
+      "description": "Basketball group for high-energy runs, fast breaks, and clutch shots.",
+      "captainId": "u3",
+      "memberIds": [
+        "u1",
+        "u5",
+        "u7",
+        "u3"
+      ],
+      "compatibilityScore": 98,
+      "suggestedVenueIds": [
+        "v11",
+        "v10",
+        "v9"
+      ],
+      "status": "confirmed",
+      "createdAt": "2026-05-09T12:19:59.531Z"
+    },
+    {
+      "id": "fa2e05ff-e94a-44db-9fea-17843f7cf95a",
+      "sport": "Football",
+      "title": "Touchline Titans",
+      "description": "Football group for team play, quick passes, and match-day energy.",
+      "captainId": "u1",
+      "memberIds": [
+        "u1",
+        "u4",
+        "u5",
+        "b5a96a3a-1e74-435f-b051-720411414509",
+        "4e5c1468-b158-4053-8626-12326609a447"
+      ],
+      "compatibilityScore": 98,
+      "suggestedVenueIds": [
+        "v4",
+        "v1",
+        "v2"
+      ],
+      "status": "confirmed",
+      "createdAt": "2026-05-09T12:38:57.350Z"
+    },
+    {
+      "id": "2082c0d4-8e9e-4502-b9b0-6bfee5b2db35",
+      "sport": "Football",
+      "title": "Sunday League Legends",
+      "description": "Football group for team play, quick passes, and match-day energy.",
+      "captainId": "u1",
+      "memberIds": [
+        "u1",
+        "u4",
+        "u5"
+      ],
+      "compatibilityScore": 97,
+      "suggestedVenueIds": [
+        "v4",
+        "v1",
+        "v2"
+      ],
+      "status": "confirmed",
+      "createdAt": "2026-05-09T12:39:38.797Z"
+    },
+    {
+      "id": "3cbb4162-fd6b-4182-be7a-752ee93c467b",
+      "sport": "Tennis",
+      "title": "Rocket Pockets",
+      "description": "Tennis group for fast rallies, light gear, and balls ready to fly.",
+      "captainId": "u6",
+      "memberIds": [
+        "u6",
+        "u2",
+        "b5a96a3a-1e74-435f-b051-720411414509",
+        "7b227d44-4e07-46df-aa0a-160a8731f245"
+      ],
+      "compatibilityScore": 81,
+      "suggestedVenueIds": [
+        "v8",
+        "v5",
+        "v6"
+      ],
+      "status": "confirmed",
+      "createdAt": "2026-05-09T12:39:38.797Z"
+    },
+    {
+      "id": "2654b949-72ec-41dc-ad63-06da15738d39",
+      "sport": "Basketball",
+      "title": "Hoop Voltage",
+      "description": "Basketball group for high-energy runs, fast breaks, and clutch shots.",
+      "captainId": "u3",
+      "memberIds": [
+        "u1",
+        "u5",
+        "u7",
+        "u3"
+      ],
+      "compatibilityScore": 98,
+      "suggestedVenueIds": [
+        "v11",
+        "v10",
+        "v9"
+      ],
+      "status": "pending-confirmation",
+      "createdAt": "2026-05-09T12:39:38.797Z"
+    },
+    {
+      "id": "d95c3daa-0a62-4ddb-a7f7-f7e0ae258d77",
+      "sport": "Volleyball",
+      "title": "Set to Impress",
+      "description": "Volleyball group for serves, saves, spikes, and team chemistry.",
+      "captainId": "u4",
+      "memberIds": [
+        "u4",
+        "u7"
+      ],
+      "compatibilityScore": 99,
+      "suggestedVenueIds": [
+        "v16",
+        "v17",
+        "v19"
+      ],
+      "status": "pending-confirmation",
+      "createdAt": "2026-05-09T12:39:38.797Z"
+    },
+    {
+      "id": "50eb9fe6-5299-46b5-8739-6a484326f3dd",
+      "sport": "Padel",
+      "title": "Glass Smashers",
+      "description": "Padel group for doubles rallies, wall play, and social games.",
+      "captainId": "u6",
+      "memberIds": [
+        "u6",
+        "u2"
+      ],
+      "compatibilityScore": 98,
+      "suggestedVenueIds": [
+        "v20"
+      ],
+      "status": "pending-confirmation",
+      "createdAt": "2026-05-09T12:39:38.797Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "d86577b2-aabc-4ba0-ac99-c93ee4a76422",
+      "groupId": "e5388d56-bedd-4ef4-8d8c-54675fe591a2",
+      "userId": "u1",
+      "body": "hello!",
+      "createdAt": "2026-05-09T11:30:51.395Z"
+    },
+    {
+      "id": "5f164e57-9c97-40c0-be2c-d5db7e185e8f",
+      "groupId": "e5388d56-bedd-4ef4-8d8c-54675fe591a2",
+      "userId": "b5a96a3a-1e74-435f-b051-720411414509",
+      "body": "Well hello there! :))",
+      "createdAt": "2026-05-09T11:36:07.125Z"
+    },
+    {
+      "id": "853520cb-c55b-4257-8057-bc9976860551",
+      "groupId": "28a0e70c-2862-46a4-a66b-9e4e5b113e07",
+      "userId": "b5a96a3a-1e74-435f-b051-720411414509",
+      "body": "Hello football world!",
+      "createdAt": "2026-05-09T12:09:16.619Z"
+    },
+    {
+      "id": "585ecae3-1d1b-46fc-b389-a85ce9a6e9a3",
+      "groupId": "f8d71cdc-4a95-4a6e-8e00-a6efe17d1028",
+      "userId": "b5a96a3a-1e74-435f-b051-720411414509",
+      "body": "Good morning footballers!",
+      "createdAt": "2026-05-09T12:38:44.745Z"
+    },
+    {
+      "id": "6a986d3c-488e-4083-a62c-9df6d55239e5",
+      "groupId": "fa2e05ff-e94a-44db-9fea-17843f7cf95a",
+      "userId": "b5a96a3a-1e74-435f-b051-720411414509",
+      "body": "Hello!",
+      "createdAt": "2026-05-09T12:40:01.833Z"
+    },
+    {
+      "id": "9fd55097-d7f0-4934-9267-48c95d7e66e5",
+      "groupId": "3cbb4162-fd6b-4182-be7a-752ee93c467b",
+      "userId": "b5a96a3a-1e74-435f-b051-720411414509",
+      "body": "Hello tenis players!",
+      "createdAt": "2026-05-09T12:58:12.168Z"
+    }
+  ],
+  "events": [
+    {
+      "title": "Bega run",
+      "sport": "Running",
+      "ownerId": "b5a96a3a-1e74-435f-b051-720411414509",
+      "startsAt": "2026-05-22T14:36",
+      "location": "Timisoara",
+      "details": "Just run around Bega :)",
+      "participantIds": [
+        "b5a96a3a-1e74-435f-b051-720411414509"
+      ],
+      "id": "8a934349-1068-4cea-9f4d-15b49928b5d0"
+    }
+  ]
+}
